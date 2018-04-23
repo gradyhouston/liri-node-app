@@ -12,7 +12,14 @@ var fs = require("fs");
 */
 
 var keys = require("./keys.js");
-var twitterKeys = keys.twitterKeys;
+var keyConfig = new Twitter({
+	consumer_key: 'myTwitterKeys.consumer_key',
+  consumer_secret: 'myTwitterKeys.consumer_secret',
+  access_token_key: 'myTwitterKeys.access_token_key',
+  access_token_secret: 'myTwitterKeys.access_token_secret',
+});
+
+keys.twitterKeys;
 
 // Read in the command line arguments
 var cmdArgs = process.argv;
@@ -34,7 +41,7 @@ function retrieveTweets() {
 	});
 
 	// Initialize the Twitter client
-	var client = new Twitter(twitterKeys);
+	var client = new Twitter(myTwitterKeys);
 
 	// Set the "screen_name" to my Twitter handle
 	var params = {screen_name: "TestAcc68330698", count: 5};
