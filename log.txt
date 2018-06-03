@@ -1,0 +1,96 @@
+User Command: node liri.js my-tweets
+
+LIRI Response:
+
+------------------------
+User Tweets:
+------------------------
+
+Created on: Mon Apr 23 01:52:53 +0000 2018
+Tweet content: Vinny owes us pizza
+------------------------
+Created on: Mon Apr 23 01:52:03 +0000 2018
+Tweet content: Panapto sucks
+------------------------
+Created on: Mon Apr 23 01:51:51 +0000 2018
+Tweet content: Another test tweet for the Liri-app homework
+------------------------
+Created on: Mon Apr 23 01:35:07 +0000 2018
+Tweet content: Another test
+------------------------
+Created on: Mon Apr 23 00:07:51 +0000 2018
+Tweet content: First test tweet
+------------------------
+
+User Command: /usr/local/bin/node,/Users/grady/Documents/GW Coding Bootcamp/liri-node-app/liri.js
+
+User Command: node liri.js movie-this 
+
+ERROR: Retrieving OMDB entry -- nullUser Command: /usr/local/bin/node,/Users/grady/Documents/GW Coding Bootcamp/liri-node-app/liri.js,tweet-this
+
+User Command: node liri.js movie-this 
+
+ERROR: Retrieving OMDB entry -- nullUser Command: node liri.js movie-this 
+
+ERROR: Retrieving OMDB entry -- nullUser Command: node liri.js movie-this The Fifth Element 
+
+ERROR: Retrieving OMDB entry -- nullUser Command: node liri.js movie-this The Fifth Element 
+
+ERROR: Retrieving OMDB entry -- nullUser Command: node liri.js movie-this The Fifth Element 
+
+LIRI Response:
+
+------------------------
+Movie Information:
+------------------------
+
+Movie Title: The Fifth Element
+Year Released: 09 May 1997
+IMBD Rating: 7.7
+Country Produced: France
+Language: English, Swedish, German
+Plot: In the twenty-third century, the universe is threatened by evil. The only hope for mankind is the Fifth Element, who comes to Earth every five thousand years to protect the humans with four stones of the four elements: fire, water, Earth and air. A Mondoshawan spacecraft is bringing The Fifth Element back to Earth but it is destroyed by the evil Mangalores. However, a team of scientists use the DNA of the remains of the Fifth Element to rebuild the perfect being called Leeloo. She escapes from the laboratory and stumbles upon the taxi driver and former elite commando Major Korben Dallas that helps her to escape from the police. Leeloo tells him that she must meet Father Vito Cornelius to accomplish her mission. Meanwhile, the Evil uses the greedy and cruel Jean-Baptiste Emanuel Zorg and a team of mercenary Mangalores to retrieve the stones and avoid the protection of Leeloo. But the skilled Korben Dallas has fallen in love with Leeloo and decides to help her to retrieve the stones.
+Actors: Bruce Willis, Gary Oldman, Ian Holm, Milla Jovovich
+Rotten Tomatoes Rating: N/A
+Rotten Tomatoes URL: http://www.rottentomatoes.com/m/fifth_element/
+
+User Command: node liri.js movie-this 
+
+LIRI Response:
+
+------------------------
+Movie Information:
+------------------------
+
+Movie Title: The Fifth Element
+Year Released: 09 May 1997
+IMBD Rating: 7.7
+Country Produced: France
+Language: English, Swedish, German
+Plot: In the twenty-third century, the universe is threatened by evil. The only hope for mankind is the Fifth Element, who comes to Earth every five thousand years to protect the humans with four stones of the four elements: fire, water, Earth and air. A Mondoshawan spacecraft is bringing The Fifth Element back to Earth but it is destroyed by the evil Mangalores. However, a team of scientists use the DNA of the remains of the Fifth Element to rebuild the perfect being called Leeloo. She escapes from the laboratory and stumbles upon the taxi driver and former elite commando Major Korben Dallas that helps her to escape from the police. Leeloo tells him that she must meet Father Vito Cornelius to accomplish her mission. Meanwhile, the Evil uses the greedy and cruel Jean-Baptiste Emanuel Zorg and a team of mercenary Mangalores to retrieve the stones and avoid the protection of Leeloo. But the skilled Korben Dallas has fallen in love with Leeloo and decides to help her to retrieve the stones.
+Actors: Bruce Willis, Gary Oldman, Ian Holm, Milla Jovovich
+Rotten Tomatoes Rating: N/A
+Rotten Tomatoes URL: http://www.rottentomatoes.com/m/fifth_element/
+
+User Command: node liri.js movie-this Sandlot 
+
+LIRI Response:
+
+------------------------
+Movie Information:
+------------------------
+
+Movie Title: Sandlot
+Year Released: 01 Mar 2000
+IMBD Rating: N/A
+Country Produced: USA
+Language: English
+Plot: N/A
+Actors: John Hernandez, James Vega
+Rotten Tomatoes Rating: N/A
+Rotten Tomatoes URL: N/A
+
+User Command: node liri.js movie-this spotify-this-song 
+
+ERROR: No movie info retrieved, please check the spelling of the movie name!User Command: node liri.js spotify-this-song 
+
